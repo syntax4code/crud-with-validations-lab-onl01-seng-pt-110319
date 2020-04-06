@@ -18,6 +18,4 @@ class Song < ApplicationRecord
         errors.add(:release_year, "release year can't be in the future")
     end
   end
-
-  end
 end
